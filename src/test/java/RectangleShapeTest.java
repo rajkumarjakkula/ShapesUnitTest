@@ -19,4 +19,13 @@ public class RectangleShapeTest {
         assertEquals(expectedvalue,actualvalue);
     }
 
+    @Test
+    @DisplayName("Perimeter of Rectangle")
+    void toGetTweleveWhenFindingPerimeterOfRectangleLengthFourAndWidthTwo()
+    {
+        int expectedvalue=12;
+        int actualvalue=object.RectanglePerimeter(4,2);
+        assertEquals(expectedvalue,actualvalue);
+    }
+
 }

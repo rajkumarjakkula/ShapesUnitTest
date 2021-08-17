@@ -4,5 +4,9 @@ public class RectangleShape {
     {
         return length*width;
     }
+    public int RectanglePerimeter(int length,int width)
+    {
+        return 2*(length+width);
+    }
 
 }
