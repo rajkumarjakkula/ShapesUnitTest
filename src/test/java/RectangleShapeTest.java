@@ -42,7 +42,7 @@ public class RectangleShapeTest {
     void toGetTwentyEightWhenFindingPerimeterOfRectangleLengthEightAndWidthSix()
     {
         int expectedvalue=28;
-        int actualvalue=object.RectanglePerimeter(8,7);
+        int actualvalue=object.RectanglePerimeter(8,6);
         assertEquals(expectedvalue,actualvalue);
     }
 
