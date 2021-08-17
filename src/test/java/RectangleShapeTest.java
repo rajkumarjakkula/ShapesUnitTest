@@ -20,11 +20,29 @@ public class RectangleShapeTest {
     }
 
     @Test
+    @DisplayName("Area of Rectangle")
+    void toGetFortyEightWhenFindingAreaOfRectangleLengthEightAndWidthSix()
+    {
+        int expectedvalue=48;
+        int actualvalue=object.RectangleArea(8,6);
+        assertEquals(expectedvalue,actualvalue);
+    }
+
+    @Test
     @DisplayName("Perimeter of Rectangle")
     void toGetTweleveWhenFindingPerimeterOfRectangleLengthFourAndWidthTwo()
     {
         int expectedvalue=12;
         int actualvalue=object.RectanglePerimeter(4,2);
+        assertEquals(expectedvalue,actualvalue);
+    }
+
+    @Test
+    @DisplayName("Perimeter of Rectangle")
+    void toGetTwentyEightWhenFindingPerimeterOfRectangleLengthEightAndWidthSix()
+    {
+        int expectedvalue=28;
+        int actualvalue=object.RectanglePerimeter(8,7);
         assertEquals(expectedvalue,actualvalue);
     }
 
